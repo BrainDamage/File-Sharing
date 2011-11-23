@@ -1,0 +1,1524 @@
+Using configuration source: "/home/cloud/.springrc"
+[CMyMath::Init] CPU SSE mask: 124, flags:
+	SSE 1.0:  1,  SSE 2.0:  1
+	SSE 3.0:  1, SSSE 3.0:  1
+	SSE 4.1:  0,  SSE 4.2:  0
+	SSE 4.0A: 0,  SSE 5.0A: 0
+	using streflop SSE FP-math mode, CPU supports SSE instructions
+[Watchdog] Installed (timeout: 10sec)
+OS: Linux 3.0-rt25-rt-ice #1 SMP PREEMPT RT Mon Nov 14 17:10:07 CET 2011 x86_64
+OS: 64bit native mode
+Available log sections: VFS, Font, KeyBindings, Sound, CSMFGroundTextures, BumpWater, DynWater, SkyBox, FarTextureHandler, ModelDrawer, OBJParser, WorldObjectModelRenderer, Texture, CollisionVolume, GroundMoveType, UnitScript, AutohostInterface, ArchiveScanner, Path
+Enabled log sections: Sound(LOG_LEVEL_INFO)
+Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+LogOutput initialized.
+Spring 84.0.1-0-ge95c0d2 HEAD
+Build date/time: Nov 22 2011 20:18:29
+Build environment: boost-104700, GNU libstdc++ version 20111026
+Compiler: gcc-4.6.2
+Using read-write data directory: /home/cloud/.spring/
+Using read-only data directory: /usr/local/share/games/spring/
+Scanning: /usr/local/share/games/spring/base
+Scanning: /home/cloud/.spring/maps
+Error: Error opening /home/cloud/.spring/maps/Trenches.sd7: Archive not found
+Unable to open archive: /home/cloud/.spring/maps/Trenches.sd7
+Scanning: /home/cloud/.spring/base
+Scanning: /home/cloud/.spring/games
+Scanning: /home/cloud/.spring/packages
+Supported Video modes: 1280x800, 1024x768, 832x624, 800x600, 720x400, 700x525, 640x512, 640x480, 640x400, 640x350, 576x432, 512x384, 416x312, 400x300, 360x200, 320x240, 320x200, 320x175
+Video mode set to 1280x800/32bit (windowed)
+[f=0000000] SDL:  1.2.14
+[f=0000000] GL version:   2.1.2 NVIDIA 285.05.09
+[f=0000000] GL vendor:    NVIDIA Corporation
+[f=0000000] GL renderer:  GeForce 8400M GS/PCI/SSE2
+[f=0000000] GLSL version: (null)
+[f=0000000] GLEW version: 1.7.0
+[f=0000000] GL info: FBO=1 NPOT=1 24bitDepth=1 ATiHacks=0
+[f=0000000] Joysticks found: 0
+[f=0000000] Warning: Joystick 0 not found
+[f=0000000] Loading startscript from: /home/cloud/.spring/script.txt
+[f=0000000] Connecting to 78.46.88.42:10372 using name BrainDamage
+[f=0000000] Video mode set to 1278x800/32bit (windowed)
+[f=0000000] Video mode set to 1280x800/32bit (windowed)
+[f=0000000] Starting demo recording
+[f=0000000] Using map: DeltaSiegeDry
+[f=0000000] Using game: Balanced Annihilation V7.60
+[f=0000000] Using game archive: ba760.sdz
+[f=0000000] recording demo: demos/20111123_234633_DeltaSiegeDry_84.0.1-0-ge95c0d2 HEAD.sdf
+[f=0000000] PreGame::GameDataReceived: 78 ms
+[f=0000000] User number 12 (team 0, allyteam 0)
+[f=0000000] [Sound] OpenAL info:
+[f=0000000] [Sound]   Available Devices:
+[f=0000000] [Sound]               PulseAudio Default
+[f=0000000] [Sound]               ALSA Default
+[f=0000000] [Sound]               No Output
+[f=0000000] [Sound]   Device:     PulseAudio Default
+[f=0000000] [Sound]   Vendor:         OpenAL Community
+[f=0000000] [Sound]   Version:        1.1 ALSOFT 1.13
+[f=0000000] [Sound]   Renderer:       OpenAL Soft
+[f=0000000] [Sound]   AL Extensions:  AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_sub_data AL_SOFT_loop_points
+[f=0000000] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context
+[f=0000000] [Sound] Warning:   EFX Supported: no
+[f=0000000] [Sound]   Max Sounds: 32
+[f=0000000] Loading Radar Icons
+[f=0000000] Loading GameData Definitions
+[f=0000000] Loading all definitions:  0.117000
+[f=0000000] Game::LoadDefs (GameData): 163 ms
+[f=0000000] Loading Sound Definitions
+[f=0000000] [Sound]  parsed 27 sounds from gamedata/sounds.lua
+[f=0000000] Game::LoadDefs (Sound): 1 ms
+[f=0000000] Parsing Map Information
+[f=0000000] Loading SMF
+[f=0000000] Loading Map (90 MB)
+[f=0000000] Creating Smooth Height Mesh
+[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 95 ms
+[f=0000000] Creating QuadField & CEGs
+[f=0000000] Number of damage types: 11
+[f=0000000] [RegisterAssimpModelParsers] supported Assimp model formats: *.3d;*.3ds;*.ac;*.ac3d;*.acc;*.ase;*.ask;*.b3d;*.blend;*.bvh;*.cob;*.csm;*.dae;*.dxf;*.enff;*.hmp;*.ifc;*.irr;*.irrmesh;*.lwo;*.lws;*.lxo;*.md2;*.md3;*.md5anim;*.md5camera;*.md5mesh;*.mdc;*.mdl;*.mesh.xml;*.mot;*.ms3d;*.ndo;*.nff;*.obj;*.off;*.pk3;*.ply;*.prj;*.q3o;*.q3s;*.raw;*.scn;*.smd;*.stl;*.ter;*.uc;*.vta;*.x;*.xml;
+[f=0000000] Creating Unit Textures
+[f=0000000] Loading Weapon Definitions
+[f=0000000] Loading Unit Definitions
+[f=0000000] Loading Feature Definitions
+[f=0000000] Initializing Map Features
+[f=0000000] Error: [LoadFeaturesFromMap] unknown map feature type ""
+[f=0000000] Reading Estimate PathCosts [8]
+[f=0000000] Reading Estimate PathCosts [32]
+[f=0000000] [CPathManager] pathing data checksum: 455fbf4c
+[f=0000000] Creating Sky
+[f=0000000] Creating ShadowHandler & DecalHandler
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/GroundDecalsVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/GroundDecalsFragProg.glsl, compile-log:
+
+[f=0000000] Creating GroundDrawer
+[f=0000000] Loading Tile Files
+[f=0000000] Reading Tile Map
+[f=0000000] Loading Square Textures
+[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 4 ms
+[f=0000000] Creating TreeDrawer
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/TreeVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/TreeVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/TreeFragProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/TreeVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/TreeFragProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/GrassVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/GrassVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/GrassVertProg.glsl, compile-log:
+
+[f=0000000] Creating ProjectileDrawer & UnitDrawer
+[f=0000000] Creating Projectile Textures
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ModelVertProg.glsl, compile-log:
+
+[f=0000000] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ModelFragProg.glsl, compile-log:
+
+[f=0000000] Creating Water
+[f=0000000] Game::LoadInterface (Camera&Mouse): 61 ms
+[f=0000000] Game::LoadInterface (Console): 49 ms
+[f=0000000] Loading LuaRules
+[f=0000000] Loaded gadget:  No Self-D           <unit_prevent_share_selfd.lua>
+[f=0000000] Loaded gadget:  Air Release         <unit_air_release_manager.lua>
+[f=0000000] Loaded gadget:  AirPlantParents     <unit_air_plants.lua>
+[f=0000000] Loaded gadget:  Bomber Control      <unit_bomber_control.lua>
+[f=0000000] Loaded gadget:  Commando Watch      <unit_commando_watch.lua>
+[f=0000000] Loaded gadget:  DGun CmdType Fix    <unit_dgun_cmdtype_fix.lua>
+[f=0000000] Loaded gadget:  DirectControl       <unit_direct_control.lua>
+[f=0000000] Loaded gadget:  DragonsDisguise     <unit_set_neutral.lua>
+[f=0000000] Loaded gadget:  Dynamic collision volume & Hitsphere Scaledown  <unit_dynamic_collision_volume.lua>
+[f=0000000] Loaded gadget:  Energy Conversion   <game_energy_conversion.lua>
+[f=0000000] Loaded gadget:  FinishedBuilding    <unit_finished_building.lua>
+[f=0000000] Loaded gadget:  Game End            <game_end.lua>
+[f=0000000] Loaded gadget:  Initial Spawn       <game_initial_spawn.lua>
+[f=0000000] Loaded gadget:  Juno Damage         <unit_juno_damage.lua>
+[f=0000000] Loaded gadget:  Lightning Spash Damage  <unit_lightning_splash_dmg.lua>
+[f=0000000] Loaded gadget:  Los_Only_Sounds     <unit_los_only_sounds.lua>
+[f=0000000] Loaded gadget:  MissileControl      <unit_missile_delay.lua>
+[f=0000000] Loaded gadget:  Napalm              <lups_napalm.lua>
+[f=0000000] Loaded gadget:  No Land Damage      <unit_no_land_damage.lua>
+[f=0000000] Loaded gadget:  No Self Pwn         <unit_noselfpwn.lua>
+[f=0000000] Loaded gadget:  NoCost              <cmd_nocost.lua>
+[f=0000000] Loaded gadget:  Paralyse Multiplier  <unit_paralyze_multiplier.lua>
+[f=0000000] Loaded gadget:  Passive Builders II  <unit_passive_builders_ii.lua>
+[f=0000000] Loaded gadget:  Prevent Lab Hax     <unit_prevent_lab_hax.lua>
+[f=0000000] Loaded gadget:  Prevent Load Hax    <unit_prevent_load_hax.lua>
+[f=0000000] Loaded gadget:  Prevent Outside Aircraft hacks  <unit_prevent_aircraft_hax.lua>
+[f=0000000] Loaded gadget:  Prevent Range Hax   <unit_prevent_range_hax.lua>
+[f=0000000] Loaded gadget:  Prevent Strange Orders  <unit_prevent_strange_orders.lua>
+[f=0000000] Loaded gadget:  Reclaim Fix         <unit_reclaim_fix.lua>
+[f=0000000] Loaded gadget:  Reclaim flash       <gfx_reclaim_flash.lua>
+[f=0000000] Loaded gadget:  ShieldDrain         <unit_shield_watch.lua>
+[f=0000000] Loaded gadget:  Shockwaves          <lups_shockwaves.lua>
+[f=0000000] Loaded gadget:  Start Point Remover Gadget  <init_start_point_remover_gadget.lua>
+[f=0000000] Loaded gadget:  Stealthy Passengers  <unit_stealthy_passengers.lua>
+[f=0000000] Loaded gadget:  Team Resourcing     <game_team_resources.lua>
+[f=0000000] Loaded gadget:  fx_reclaim_shards   <fx_reclaim_shards.lua>
+[f=0000000] Loaded gadget:  lups_wrapper.lua    <lups_wrapper.lua>
+[f=0000000] Loaded gadget:  mo_combomb_full_damage  <mo_combomb_full_damage.lua>
+[f=0000000] Loaded gadget:  mo_enemywrecks      <mo_enemywrecks.lua>
+[f=0000000] Loaded gadget:  mo_noshare          <mo_noshare.lua>
+[f=0000000] Loaded gadget:  prevent_flying_com_wrecks  <unit_prevent_flying_com_wrecks.lua>
+[f=0000000] Loaded gadget:  Area Attack         <areaattack.lua>
+[f=0000000] Loaded gadget:  C Is For Control    <comiscontrol.lua>
+[f=0000000] Loaded gadget:  Coop II             <mo_coop_ii.lua>
+[f=0000000] Loaded gadget:  Team Com Ends       <teamcomends.lua>
+[f=0000000] Loaded gadget:  LupsSyncedManager   <lups_manager.lua>
+[f=0000000] Loaded gadget:  Mex Upgrader Gadget  <unit_mex_upgrader.lua>
+[f=0000000] Loaded gadget:  Air Release         <unit_air_release_manager.lua>
+[f=0000000] Loaded gadget:  AirPlantParents     <unit_air_plants.lua>
+[f=0000000] Loaded gadget:  DragonsDisguise     <unit_set_neutral.lua>
+[f=0000000] Loaded gadget:  Dynamic collision volume & Hitsphere Scaledown  <unit_dynamic_collision_volume.lua>
+[f=0000000] Loaded gadget:  FinishedBuilding    <unit_finished_building.lua>
+[f=0000000] Loaded gadget:  Los_Only_Sounds     <unit_los_only_sounds.lua>
+[f=0000000] Loaded gadget:  MissileControl      <unit_missile_delay.lua>
+[f=0000000] Loaded gadget:  Napalm              <lups_napalm.lua>
+[f=0000000] Loaded gadget:  NoCost              <cmd_nocost.lua>
+[f=0000000] Loaded gadget:  Reclaim Fix         <unit_reclaim_fix.lua>
+[f=0000000] Loaded gadget:  Reclaim flash       <gfx_reclaim_flash.lua>
+[f=0000000] Loaded gadget:  ShieldDrain         <unit_shield_watch.lua>
+[f=0000000] Loaded gadget:  Shockwaves          <lups_shockwaves.lua>
+[f=0000000] Loaded gadget:  Start Point Remover Gadget  <init_start_point_remover_gadget.lua>
+[f=0000000] Loaded gadget:  fx_reclaim_shards   <fx_reclaim_shards.lua>
+[f=0000000] Loaded gadget:  mo_enemywrecks      <mo_enemywrecks.lua>
+[f=0000000] Loaded gadget:  mo_greenfields      <mo_greenfields.lua>
+[f=0000000] Loaded gadget:  mo_noowner          <mo_noowner.lua>
+[f=0000000] Loaded gadget:  mo_noshare          <mo_noshare.lua>
+[f=0000000] Loaded gadget:  mo_nowrecks         <mo_nowrecks.lua>
+[f=0000000] Loaded gadget:  prevent_flying_com_wrecks  <unit_prevent_flying_com_wrecks.lua>
+[f=0000000] Loaded gadget:  Area Attack         <areaattack.lua>
+[f=0000000] Loaded gadget:  C Is For Control    <comiscontrol.lua>
+[f=0000000] Loaded gadget:  Coop II             <mo_coop_ii.lua>
+[f=0000000] Loaded gadget:  LupsSyncedManager   <lups_manager.lua>
+[f=0000000] Loaded gadget:  Mex Upgrader Gadget  <unit_mex_upgrader.lua>
+[f=0000000] LUPS->Distortion: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->SimpleParticles2: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->SimpleParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->nanoLaserShader: shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->Shield: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->UnitSmoke: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->UnitPieceLights: Critical Shader Error: DepthShader: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->UnitCloaker: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS: airjet particle class: shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->StaticParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS: RingParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->NanoParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->Ribbon: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] Loaded gadget:  Lups                <lups_wrapper.lua>
+[f=0000000] Loading LuaGaia
+[f=0000000] Loading LuaUI
+[f=0000000] This game has locked LuaUI access
+[f=0000000] Using LUAUI_DIRNAME = LuaUI/
+[f=0000000] Reloaded ctrlpanel from file: LuaUI/ctrlpanel.txt
+[f=0000000] LuaUI: bound F11 to the widget selector
+[f=0000000] LuaUI: bound CTRL+F11 to tweak mode
+[f=0000000] Failed to load: camera_specrun.lua  (no GetInfo() call)
+[f=0000000] Failed to load: unit_improved_metal_maker.lua  (Blacklisted)
+[f=0000000] Failed to load: autofirstbuildfacing.lua  (duplicate name)
+[f=0000000] Failed to load: autoquit.lua  (duplicate name)
+[f=0000000] Failed to load: cmd_no_duplicate_orders.lua  (duplicate name)
+[f=0000000] Failed to load: cmd_state_reverse_toggle.lua  (duplicate name)
+[f=0000000] Failed to load: gui_attack_aoe.lua  (duplicate name)
+[f=0000000] Failed to load: gui_build_eta.lua  (duplicate name)
+[f=0000000] Failed to load: gui_defenserange.lua  (duplicate name)
+[f=0000000] Failed to load: gui_faction_change.lua  (duplicate name)
+[f=0000000] Failed to load: gui_point_tracker.lua  (duplicate name)
+[f=0000000] Failed to load: gui_reclaiminfo.lua  (duplicate name)
+[f=0000000] Failed to load: gui_red_resourcebars.lua  (duplicate name)
+[f=0000000] Failed to load: red_ui_framework.lua  (duplicate name)
+[f=0000000] Failed to load: red_ui_framework_drawing.lua  (duplicate name)
+[f=0000000] Failed to load: unit_comm_nametags.lua  (duplicate name)
+[f=0000000] Failed to load: unit_customformations2.lua  (duplicate name)
+[f=0000000] Failed to load: unit_customicons.lua  (duplicate name)
+[f=0000000] Failed to load: unit_ghostsite.lua  (duplicate name)
+[f=0000000] Failed to load: unit_holdfire_fix.lua  (duplicate name)
+[f=0000000] Loading widget from user:  Red_UI_Framework    <Red_UI_Framework.lua> ...
+[f=0000000] Loading widget from mod:   Metalspot Finder    <wg_metalspot_finder.lua> ...
+[f=0000000] Loading widget from user:  Inline ToolTip      <gui_inlinetip.lua> ...
+[f=0000000] Loading widget from mod:   MexUpg Helper       <helper.lua> ...
+[f=0000000] Loading widget from user:  Faction Change      <gui_faction_change.lua> ...
+[f=0000000] Loading widget from user:  Commander Name Tags   <unit_comm_nametags.lua> ...
+[f=0000000] Loading widget from mod:   HealthBars          <unit_healthbars.lua> ...
+[f=0000000] Loading widget from user:  No Self-D           <unit_prevent_share_selfd.lua> ...
+[f=0000000] Loading widget from user:  Export Heightmap    <cmd_heightmapexporter.lua> ...
+[f=0000000] Loading widget from user:  LockCamera          <camera_lockcamera.lua> ...
+[f=0000000] Loading widget from user:  D-Gun unstall       <unit_dgun_unstall.lua> ...
+[f=0000000] Loading widget from user:  BuildETA            <gui_build_eta.lua> ...
+[f=0000000] Loading widget from user:  Don't Shoot         <unit_dontshoot.lua> ...
+[f=0000000] Loading widget from user:  Move ETA            <gui_move_eta.lua> ...
+[f=0000000] Loading widget from user:  Initial Queue       <unit_initial_queue.lua> ...
+[f=0000000] Loading widget from user:  Autoquit            <autoquit.lua> ...
+[f=0000000] Loading widget from mod:   ComCounter          <unit_com_counter.lua> ...
+[f=0000000] Loading widget from user:  Darkening           <gui_darkening.lua> ...
+[f=0000000] Loading widget from user:  DontMove            <unit_dontmove.lua> ...
+[f=0000000] Loading widget from user:  Land Fly v1.2.2     <unit_land_fly.lua> ...
+[f=0000000] Loading widget from user:  MinimapEvents       <minimap_events.lua> ...
+[f=0000000] Loading widget from user:  Point Tracker       <gui_point_tracker.lua> ...
+[f=0000000] Loading widget from user:  SmartAreaReclaim    <unit_smart_area_reclaim.lua> ...
+[f=0000000] Loading widget from mod:   Transporting        <gui_transporting.lua> ...
+[f=0000000] Loading widget from user:  Erase Command       <erase_command.lua> ...
+[f=0000000] Loading widget from user:  LOSColors           <gui_los_colors.lua> ...
+[f=0000000] Loading widget from user:  CustomIcons         <customicons.lua> ...
+[f=0000000] Loading widget from user:  Dgun Helper 1.2     <unit_dgunhelper.lua> ...
+[f=0000000] Loading widget from user:  Group Label         <group_label.lua> ...
+[f=0000000] Loading widget from user:  Specific Unit Reclaimer  <unit_specific_unit_reclaimer.lua> ...
+[f=0000000] Loading widget from user:  CameraShake         <camera_shake.lua> ...
+[f=0000000] Loading widget from user:  RelativeMinimap     <minimap_relative.lua> ...
+[f=0000000] Loading widget from user:  Emotes              <cmd_emotes.lua> ...
+[f=0000000] Loading widget from user:  MetalFeatures       <gui_metal_features.lua> ...
+[f=0000000] Loading widget from user:  Blast Radius        <gui_blastRadius.lua> ...
+[f=0000000] Loading widget from mod:   MoreSounds          <unit_more_sounds.lua> ...
+[f=0000000] Loading widget from user:  State Reverse Toggle  <cmd_state_reverse_toggle.lua> ...
+[f=0000000] Loading widget from user:  Holdfire Fix        <unit_holdfire_fix.lua> ...
+[f=0000000] Loading widget from mod:   Share Tracker       <unit_share_tracker.lua> ...
+[f=0000000] Loading widget from user:  Unit Ranges         <gui_unit_ranges.lua> ...
+[f=0000000] Loading widget from user:  ReclaimInfo         <gui_reclaiminfo.lua> ...
+[f=0000000] Loading widget from user:  Red_Drawing         <Red_UI_Framework_Drawing.lua> ...
+[f=0000000] Loading widget from user:  StopCons            <cmd_consdontfollow.lua> ...
+[f=0000000] Loading widget from user:  Red Resource Bars   <gui_red_resourcebars.lua> ...
+[f=0000000] Loading widget from user:  FPSManager          <FPSManager.lua> ...
+[f=0000000] Set "shadows" config-parameter to 0
+[f=0000000] rendering of the dynamic sky is disabled!
+[f=0000000] Set maximum particles to: 500
+[f=0000000] Loading widget from user:  Picture-in-Picture  <gui_pip.lua> ...
+[f=0000000] Loading widget from user:  IdleBuildersNEW     <gui_idle_builders_new.lua> ...
+[f=0000000] Loading widget from user:  ImmobileBuilder     <unit_immobile_buider.lua> ...
+[f=0000000] Loading widget from user:  Message Separator   <gui_messsage_separator.lua> ...
+[f=0000000] Loading widget from user:  DoLine              <cmd_cmd.lua> ...
+[f=0000000] Loading widget from user:  Load Own Moving     <unit_load_own_moving.lua> ...
+[f=0000000] Loading widget from user:  Build costs 1.02    <gui_build_costs.lua> ...
+[f=0000000] Loading widget from mod:   Anti Range          <gui_anti_range.lua> ...
+[f=0000000] Loading widget from mod:   Build Split         <cmd_buildsplit.lua> ...
+[f=0000000] Loading widget from mod:   Highlight Geos      <gui_highlight_geos.lua> ...
+[f=0000000] Loading widget from user:  Persistent Build Spacing  <gui_persistent_build_spacing.lua> ...
+[f=0000000] Loading widget from user:  Auto Skirm v2       <unit_auto_skirm.lua> ...
+[f=0000000] Loading widget from user:  Simple player list  <gui_simpleplayerlist.lua> ...
+[f=0000000] Loading widget from user:  Area Mex v2         <cmd_area_mex2.lua> ...
+[f=0000000] Area Mex: Loaded for *A
+[f=0000000] Mexmap detected - loading...
+[f=0000000] mexmap imported from LuaUI/MetalMaps/deltasiegedry.springmexmap
+[f=0000000] Loading widget from user:  FactoryQ Manager    <cmd_factoryqmanager.lua> ...
+[f=0000000] Loading widget from user:  Auto First Build Facing  <autofirstbuildfacing.lua> ...
+[f=0000000] Loading widget from user:  Defense Range       <gui_defenseRange.lua> ...
+[f=0000000] Loading widget from mod:   Energy Conversion Info  <gui_energy_conversion.lua> ...
+[f=0000000] <Energy Conversion Info> Spectator mode. Widget removed.
+[f=0000000] Loading widget from user:  Show All Commands   <unit_showallcommands.lua> ...
+[f=0000000] Loading widget from mod:   Unit Marker (BA)    <unit_marker.lua> ...
+[f=0000000] Loading widget from mod:   GameTypeInfo        <gui_game_type_info.lua> ...
+[f=0000000] Loading widget from user:  MiniMap Start Boxes  <minimap_startbox.lua> ...
+[f=0000000] Loading widget from mod:   MohoExploiter       <unit_moho_exploiter.lua> ...
+[f=0000000] MohoExploiter widget disabled for spectators
+[f=0000000] Loading widget from mod:   Take Reminder II    <gui_take_remind_ii.lua> ...
+[f=0000000] Loading widget from mod:   Ghost Radar         <unit_ghostradar.lua> ...
+[f=0000000] Loading widget from user:  Ghost Site          <unit_ghostSite.lua> ...
+[f=0000000] Loading widget from user:  Nuke Button         <gui_nukeButton.lua> ...
+[f=0000000] Loading widget from user:  Reclaim stopper     <unit_reclaim_stopper.lua> ...
+[f=0000000] Loading widget from user:  Auto group          <unit_auto_group.lua> ...
+[f=0000000] Loading widget from user:  Transporter 2       <unit_transporter_2.lua> ...
+[f=0000000] Loading widget from user:  NoDuplicateOrders   <cmd_no_duplicate_orders.lua> ...
+[f=0000000] Loading widget from user:  Coop helper         <cmd_coophelper.lua> ...
+[f=0000000] Loading widget from user:  Unit Mover          <cmd_unit_mover.lua> ...
+[f=0000000] Loading widget from user:  Stockpiler (dynamic)  <unit_stockpile_dynamic.lua> ...
+[f=0000000] Loading widget from user:  Passive Nanos       <unit_passive_nanos.lua> ...
+[f=0000000] Loading widget from user:  SmartNanos          <unit_smart_nanos.lua> ...
+[f=0000000] SmartNanos widget disabled for spectators
+[f=0000000] Loading widget from mod:   Prospector          <gui_prospector.lua> ...
+[f=0000000] Loading widget from user:  Attack AoE          <gui_attack_aoe.lua> ...
+[f=0000000] Loading widget from user:  Energy Efficiency   <unit_energy_efficiency.lua> ...
+[f=0000000] Loading widget from user:  Context Build       <gui_context_build.lua> ...
+[f=0000000] Loading widget from user:  Rank Icons          <gui_xp.lua> ...
+[f=0000000] Loading widget from user:  Bomber control      <unit_bomber_control.lua> ...
+[f=0000000] false
+[f=0000000] Error in Initialize(): [string "LuaUI/Widgets/unit_bomber_control.lua"]:104: 'for' limit must be a number
+[f=0000000] Removed widget: Bomber control
+[f=0000000] Loading widget from user:  CommandInsert       <gui_commandinsert.lua> ...
+[f=0000000] Loading widget from user:  Team View           <gui_team_viewer.lua> ...
+[f=0000000] Loading widget from mod:   Select n Center!    <gui_center_n_select.lua> ...
+[f=0000000] Loading widget from user:  Auto LOS            <cmd_autolos.lua> ...
+[f=0000000] Loading widget from user:  Unit Stats          <gui_unit_stats.lua> ...
+[f=0000000] Loading widget from mod:   LupsManager         <gfx_lups_manager.lua> ...
+[f=0000000] Loading widget from mod:   BA_AllyCursors      <gui_ba_ally_cursors.lua> ...
+[f=0000000] Loading widget from user:  Hybrid Overhead camera  <camera_hybridoverhead.lua> ...
+[f=0000000] Switching to Free style camera
+[f=0000000] Loading widget from mod:   Lups                <lups_wrapper.lua> ...
+[f=0000000] LUPS->Distortion: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->SimpleParticles2: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->SimpleParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->nanoLaserShader: shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..FACTIONS_COUNT-1] : determines the used particle class
+--                                   (only NanoLasers and NanoParticles possible)
+--                                   (Note: NanoParticles doesn't work on all PCs)
+-- NanoFx[0..FACTIONS_COUNT-1]     : fx config
+-- note: if you want to make a param dependent on the nano density,
+--       then you can put " " around the param and put any lua code
+--       in it (see core example fx)
+--       (any lua function except math.random(),random(),r() are prohibited)
+--       allowed variables to use are:
+--         count       (nano density/strength)
+--         limcount    (count scaled between 0..1)
+--         and inverse (->reclaim)
+
+-- EXAMPLE CUSTOM ARM NANOFX (freaky!)
+--NanoFxType0 = "NanoParticles"
+--NanoFx0 = {
+--  alpha       = 0.25,
+--  size        = 3,
+--  sizeSpread  = 5,
+--  sizeGrowth  = 0.35,
+--  rotSpeed    = 0.1,
+--  rotSpread   = 360,
+--  texture     = "bitmaps/Other/Poof.png",
+--  particles   = 1.75, -- -> count*2.5 particles
+--}
+
+-- DEFAULT CORE ONE
+--NanoFxType1 = "NanoLasers"
+--NanoFx1 = {
+--  alpha           = "0.2+count/30",
+--  corealpha       = "0.7+count/15",
+--  corethickness   = "2*limcount",
+--  streamThickness = "1+9*limcount",
+--  streamSpeed     = "(inversed)and(70-count) or (120-count*3)",
+--}
+[f=0000000] LUPS->Shield: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->UnitSmoke: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->UnitPieceLights: Critical Shader Error: DepthShader: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->UnitCloaker: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS: airjet particle class: shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->StaticParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS: RingParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->NanoParticles: Critical Shader Error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] LUPS->Ribbon: critical shader error: ortions==
+--Distortions               = false  -- force distortions? (you can force it on, too!)
+--DistortionUpdateSkip      = 0     -- must be larger zero (larger := better performance)
+--DistortionCopyDepthBuffer = true  -- do depthtest? (can increase performance if turned off)
+
+
+--==NanoTower FXs==
+-- NanoFxType[0..F¦i¤
+[f=0000000] Loading widget from user:  Double-Click Fight  <gui_doubleclickfight.lua> ...
+[f=0000000] Loading widget from user:  CustomFormations2   <unit_customformations2.lua> ...
+[f=0000000] LuaUI v0.3
+[f=0000000] Finalizing
+[f=0000000] Set water rendering mode to 0 (basic)
+[f=0000000] <GhostRadar> Spectator mode. Widget removed.
+[f=0000000] <Nuke Icon> Spectator mode. Widget removed.
+[f=0000000] Spectator map drawing is enabled
+[f=0000000] Connection attempt from Bob_Sacamano
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 11)
+[f=0000000] Connection attempt from [tux]Ziz
+[f=0000000]  -> Version: 84.0 (OMP)
+[f=0000000]  -> Connection established (given id 14)
+[f=0000000] Connection attempt from [EADS]Zehst
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 2)
+[f=0000000] Connection attempt from [LOeT]Vorlage
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 0)
+[f=0000000] Connection attempt from toropyga
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 8)
+[f=0000000] Connection attempt from [No]Pallino
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 3)
+[f=0000000] Connection attempt from [No]DuCnuke
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 18)
+[f=0000000] Connection attempt from existenz
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 6)
+[f=0000000] Connection attempt from [RuR]Dixon
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 4)
+[f=0000000] Connection attempt from BrainDamage
+[f=0000000]  -> Version: 84.0.1-0-ge95c0d2 HEAD
+[f=0000000]  -> Connection established (given id 12)
+[f=0000000] Connection attempt from 4getpw
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 10)
+[f=0000000] Connection attempt from [4RP]wahoodra
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 1)
+[f=0000000] Connection attempt from [ACE]Krapoo
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 23)
+[f=0000000] Connection attempt from [nl]cerealkiller
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 17)
+[f=0000000] Connection attempt from Redemption
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 15)
+[f=0000000] Connection attempt from tminus1
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 7)
+[f=0000000] Connection attempt from [teh]TeBe
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 22)
+[f=0000000] Connection attempt from [LOeT]Amorphe
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 9)
+[f=0000000] Connection attempt from [BoS]nixtux
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 21)
+[f=0000000] Connection attempt from yagerq
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 20)
+[f=0000000] Connection attempt from zerver
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 16)
+[f=0000000] Connection attempt from dontletmedown
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 27)
+[f=0000000] Connection attempt from [LOeT]Senna
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 26)
+[f=0000000] Connection attempt from aleksey2
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 25)
+[f=0000000] Connection attempt from [H]joooo
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 5)
+[f=0000000] Connection attempt from [No]Party
+[f=0000000]  -> Version: 84.0 (MT-Sim)
+[f=0000000]  -> Connection established (given id 19)
+[f=0000000] Connection attempt from [DoR]MelKor
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 13)
+[f=0000000] Connection attempt from [FLM]Scorplex
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 24)
+[f=0000000] <DefenseRange> Spectator mode. Widget removed.
+[f=0000000] [BrainDamage] let's see how many are unable to read about the widgets :p
+[f=0000000] Player [nl]cerealkiller left the game:  timeout
+[f=0000000] <[ACE]Krapoo> I did
+[f=0000000] Player [No]Party left the game:  timeout
+[f=0000000] > <[nl]cerealkiller> ok wth c++ error
+[f=0000000] <[EADS]Zehst> why i dont have the bug with the minimap brain ?
+[f=0000000] <[ACE]Krapoo> brain I have still no box sorry
+[f=0000000] <[LOeT]Senna> i can reconect?
+[f=0000000] [BrainDamage] you had the widget from old version
+[f=0000000] [dontletmedown] can we do back to 82.7 now????
+[f=0000000] <[LOeT]Senna> lol
+[f=0000000] Added new player: [LOeT]Brenner
+[f=0000000] [[tux]Ziz] What is new in version 84.0 except from only using the maior number now?
+[f=0000000] <[LOeT]Senna> never
+[f=0000000] [BrainDamage] spring never rolls back
+[f=0000000] <[No]DuCnuke> no party is resetting no mt
+[f=0000000] [BrainDamage] don't bother asking
+[f=0000000] <[LOeT]Senna> what a question lol./...
+[f=0000000] [BrainDamage] [tux]Ziz: read the changelong
+[f=0000000] [[tux]Ziz] Vorwärts immer, Rückwärts nimmer ^^
+[f=0000000] [BrainDamage] it's 3 pages long
+[f=0000000] Spectator Redemption left the game:  timeout
+[f=0000000] [[LOeT]Vorlage] can we go back to windows 95c ?
+[f=0000000] <[LOeT]Senna> i just found now laser sucks as hell
+[f=0000000] Connection attempt from [No]Party
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 19)
+[f=0000000] Connection attempt from [LOeT]Brenner
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 28)
+[f=0000000] <[LOeT]Senna> can we do back to ms dos?
+[f=0000000] [[tux]Ziz] I thought, there were very important or funny changes...
+[f=0000000] <[EADS]Zehst> and arm figther build very NO fast
+[f=0000000] [[tux]Ziz] aka I am lazy
+[f=0000000] Added new player: [PinK]Whushu
+[f=0000000] [[LOeT]Vorlage] can we go back to TOS ?
+[f=0000000] Added new player: [PinK]AlbA
+[f=0000000] <[4RP]wahoodra> core builds slow too
+[f=0000000] Connection attempt from [PinK]AlbA
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 30)
+[f=0000000] <tminus1> sry
+[f=0000000] <[EADS]Zehst> :(
+[f=0000000] [BrainDamage] weird, midgame join works now
+[f=0000000] <[EADS]Zehst> what is the prob with figther building speed ?
+[f=0000000] <[No]DuCnuke> lol
+[f=0000000] <[EADS]Zehst> they build too slow
+[f=0000000] Player [LOeT]Senna left the game:  normal quit
+[f=0000000] <[4RP]wahoodra> anti floris
+[f=0000000] Connection attempt from [LOeT]Senna
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 26)
+[f=0000000] <[EADS]Zehst> :D
+[f=0000000] > <[BoS]nixtux> BrainDamage same here
+[f=0000000] > <[BoS]nixtux> odd
+[f=0000000] <zerver> maybe it works only if game is not started?
+[f=0000000] <[LOeT]Senna> well
+[f=0000000] > <Redemption> i cant join
+[f=0000000] <[LOeT]Senna> my startbox
+[f=0000000] > <Redemption> it crashes
+[f=0000000] <[LOeT]Senna> and minimap
+[f=0000000] <[LOeT]Senna> works fine
+[f=0000000] > <Redemption> i guess i will have to reinstall
+[f=0000000] > <Redemption> :/
+[f=0000000] [BrainDamage] i think yes, when it starts, it stops accepting connections
+[f=0000000] [[PinK]AlbA] anyone know how to increase scrolling speed ?
+[f=0000000] [[tux]Ziz] BrainDamage: Midgame join worked before? Or do you mean WITHOUT a replay of the whole game?
+[f=0000000] <[EADS]Zehst> no
+[f=0000000] <tminus1> yes
+[f=0000000] <[EADS]Zehst> it crash to me tooo
+[f=0000000] <[LOeT]Senna> yeah
+[f=0000000] <tminus1> springsetting
+[f=0000000] <tminus1> s
+[f=0000000] [[PinK]AlbA] yeah it did
+[f=0000000] <[EADS]Zehst> and after it running
+[f=0000000] <[LOeT]Senna> but this new engine loads pretty FAAST
+[f=0000000] [BrainDamage] [tux]Ziz: the server streams you the replay
+[f=0000000] [dontletmedown] also when are arm processors supported???? x86 is old and bloated
+[f=0000000] [BrainDamage] dontletmedown: do it
+[f=0000000] Connection attempt from [nl]cerealkiller
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 17)
+[f=0000000] [[PinK]AlbA] anyone know how to increase scrolling speed ?
+[f=0000000] <[LOeT]Senna> make it x1024
+[f=0000000] [BrainDamage] [PinK]AlbA: springsettings
+[f=0000000] [[tux]Ziz] I know, BrainDamage. The server did it in the last version, too.
+[f=0000000] [[PinK]AlbA] overhead camera speed is at100
+[f=0000000] Added new player: Falk10
+[f=0000000] <[nl]cerealkiller> back
+[f=0000000] [[PinK]AlbA] and still fucking slow
+[f=0000000] [[tux]Ziz] I often joined games in the middle of the game ^^
+[f=0000000] <[nl]cerealkiller> had a crash
+[f=0000000] Connection attempt from Falk10
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 31)
+[f=0000000] Spectator [PinK]AlbA left the game:  normal quit
+[f=0000000] <tminus1> dontletmedown: yeah, and mips
+[f=0000000] [BrainDamage] don't forget powerpc
+[f=0000000] [BrainDamage] and 8086
+[f=0000000] <[EADS]Zehst> we will try to save you
+[f=0000000] Switching to Overhead (TA) style camera
+[f=0000000] <tminus1> itanium. you can actually still buy that
+[f=0000000] Connection attempt from Redemption
+[f=0000000]  -> Version: 84.0
+[f=0000000]  -> Connection established (given id 15)
+[f=0000000] GameID: f678cd4e3bd14f45151248d679b8f899
+[f=0000000] false
+[f=0000000] Error in UnitCreated(): [string "LuaUI/Widgets/gui_defenseRange.lua"]:463: 'for' limit must be a number
+[f=0000000] Removed widget: Defense Range
+[f=0000013] <toropyga> go
+[f=0000030] <Unit Marker> Spectator mode. Widget removed.
+[f=0000451] [EADS]Zehst added point: hi :)
+[f=0000545] <tminus1> and did the cool sound get changed?
+[f=0000584] [EADS]Zehst added point: hi :)
+[f=0000637] [LOeT]Senna added point: hello
+[f=0000638] [dontletmedown] quadcore arm cpu could run this, right?
+[f=0000689] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0000689] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0000689] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0000689] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0000689] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0000689] Set "shadows" config-parameter to 1
+[f=0000839] <[LOeT]Amorphe> Allies: hi
+[f=0000871] <[LOeT]Senna> mex snap doesnt work
+[f=0001459] Set "shadows" config-parameter to 0
+[f=0001498] <[LOeT]Senna> i see a bug with core com movement
+[f=0001732] <[LOeT]Senna> is that normal?
+[f=0001799] Set water rendering mode to 0 (basic)
+[f=0001844] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0001844] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0001844] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0001844] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0001844] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0001844] Set "shadows" config-parameter to 1
+[f=0001938] Spectator Falk10 left the game:  normal quit
+[f=0002014] [BrainDamage] we are no mind readers
+[f=0002153] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0002153] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0002153] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0002153] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0002153] Warning: [CreateShaderObject]
+	shader-object name: GLSL/ShadowGenVertProg.glsl, compile-log:
+
+[f=0002153] Set "shadows" config-parameter to 1
+[f=0002324] Set "shadows" config-parameter to 0
+[f=0002395] <tminus1> changing zbuf from 16 to 24 seems to have reduced issues
+[f=0002860] > <[PinK]AlbA> i cannot join using /forcestart, I sue TAS client, does it works with springlobby ?
+[f=0003044] [BrainDamage] no
+[f=0003131] [BrainDamage] spring bug
+[f=0003209] > <[PinK]AlbA> ok
+[f=0003239] <[EADS]Zehst> the new radius view seem more good !
+[f=0004021] [dontletmedown] I downloaded 82.7 yesterday, do i have to upgrade spring often?
+[f=0004363] [BrainDamage] zerver: i think no link sets canReconnect, so at start buffer gets flushed
+[f=0004431] <[nl]cerealkiller> almost never
+[f=0004563] [[tux]Ziz] No, dontletmedown.
+[f=0004814] [dontletmedown] k lol
+[f=0004880] [[FLM]Scorplex] last time was something like last year ...
+[f=0005102] [[tux]Ziz] You were just unlucky XD
+[f=0005256] [LOeT]Senna added point: see
+[f=0005468] [LOeT]Senna added point: move strange
+[f=0005533] Spectator [teh]TeBe left the game:  normal quit
+[f=0005766] Added new player: Batman
+[f=0005791] debug info rendering mode is enabled!
+[f=0005810] [[tux]Ziz] *had bad luck
+[f=0005941] <tminus1> cant really see lasers
+[f=0006000] [[LOeT]Vorlage] why dont they test midgame join before releasing 0.84 ?
+[f=0006020] <[LOeT]Senna> u see it BD?
+[f=0006050] debug info rendering mode is disabled!
+[f=0006205] [BrainDamage] i see it
+[f=0006433] [BrainDamage] "they" ?
+[f=0006591] [[LOeT]Vorlage] the developers
+[f=0006650] <zerver> they = we
+[f=0006685] Commander: Self destruct in 4 s
+[f=0006716] Commander: Self destruct in 3 s
+[f=0006748] Commander: Self destruct in 2 s
+[f=0006772] [LOeT]Senna added point: script bug
+[f=0006780] Commander: Self destruct in 1 s
+[f=0006827] Commanders Remaining: 6
+[f=0006877] [[LOeT]Vorlage] not "a developer"
+[f=0006923] [BrainDamage] why you didn't instead?
+[f=0007108] [[LOeT]Vorlage] cause many guys devs
+[f=0007246] [BrainDamage] ahaha no
+[f=0007587] [BrainDamage] the opposite of many
+[f=0007608] [[LOeT]Vorlage] im not beta and not alpha tester and have no time 
+[f=0007629] tminus1 added point: 
+[f=0007633] tminus1 added point: 
+[f=0007637] tminus1 added point: 
+[f=0007859] [[FLM]Scorplex] don't blame developpers, that's not that esay to do such a work ;)
+[f=0008051] Added new player: [nl]Apenvolkje
+[f=0008166] [BrainDamage] sorry, but when nobody tests spring, the whole playerbase becomes beta testers
+[f=0008169] [[LOeT]Vorlage] im a dev myself
+[f=0008452] > <[nl]Apenvolkje> zet em op cerealkiller! 
+[f=0008622] [BrainDamage] you cannot test every possible feature imaginable
+[f=0008720] [dontletmedown] wish to see this whole game but i just downloaded cowboys and aliens xD
+[f=0008867] [[LOeT]Vorlage] i know how to test stuff before i release it
+[f=0008984] [No]Party added point: take the hill...
+[f=0009205] [BrainDamage] good, then please apply your expertise
+[f=0009458] [[LOeT]Vorlage] as i sayd
+[f=0009463] [BrainDamage] and show us by testing the new spring release
+[f=0009517] [[LOeT]Vorlage] no time
+[f=0009549] Commanders Remaining: 5
+[f=0009703] [BrainDamage] spring devs neither
+[f=0009839] [[FLM]Scorplex] and for free of couse ;)
+[f=0009868] <tminus1> spatial sound is broken
+[f=0009909] [4getpw] see thats why devs didint test it :D
+[f=0010356] [[LOeT]Vorlage] so then release it not so fast
+[f=0010469] [[LOeT]Vorlage] and test more
+[f=0010557] [[LOeT]Vorlage] if no time
+[f=0010811] > <Batman> no time to test more
+[f=0010930] [BrainDamage] then people complain it takes forever
+[f=0010958] [4getpw] come on u didnt know the answer...
+[f=0011017] [[LOeT]Brenner] ducnuke alone vs 3 :)
+[f=0011107] [[LOeT]Brenner] gl!
+[f=0011179] [4getpw] its impossible find every fault
+[f=0011346] [[LOeT]Vorlage] right
+[f=0011474] [[LOeT]Vorlage] but a midgame join
+[f=0011572] > <Batman> 3getpw is right
+[f=0011594] [dontletmedown] maybe open beta next time :P
+[f=0011611] [LOeT]Senna added point: he can combomb
+[f=0011693] [[LOeT]Vorlage] is a really often used feature
+[f=0011805] > <[PinK]AlbA> kebinding is fuckd uop too
+[f=0012155] [4getpw] nah some noobs didnt know the existence
+[f=0012179] [ACE]Krapoo added point: ??
+[f=0012205] [[LOeT]Vorlage] is it really the thing that nobody of the testers has done any midgame join?
+[f=0012227] [LOeT]Senna added point: 
+[f=0012358] [4getpw] so half the player cant use it
+[f=0012409] [No]Party added point: lol
+[f=0012437]   [LOeT]Amorphe  [LOeT]Brenner  [LOeT]Senna  [LOeT]Vorlage
+[f=0012463] > <Batman> dont worry everything will be fix after thanksgiving
+[f=0012618] > <Batman> eat moar turkey
+[f=0012654] > <[PinK]AlbA> i unbind Dgun and it is still dinf to D key, impossible to remove it
+[f=0012801] [[FLM]Scorplex] by the way, i tested on single player, and i had the feeling that factories worked like magnet for units ...
+[f=0012956] [BrainDamage] [PinK]AlbA: it has been renamed
+[f=0012966] Added new player: uixx
+[f=0013299] > <[PinK]AlbA> unbind ?
+[f=0013323] [BrainDamage] it's not called dgun anymore
+[f=0013383] > <[PinK]AlbA> or Dgun ?
+[f=0013586] [No]DuCnuke added point: i need help now
+[f=0013592] [LOeT]Senna added point: help
+[f=0013603] > <[PinK]AlbA> how it is called ?
+[f=0013760] <tminus1> rezzer dont repair
+[f=0013789] [BrainDamage] manualfire
+[f=0013806] > <[PinK]AlbA> well, i ll found out
+[f=0013945] > <[PinK]AlbA> tx
+[f=0014304] [[FLM]Scorplex] yes what a pity... i loved my dgun ...
+[f=0014399] tminus1 added point: î dont see what is hitting me
+[f=0014845] [LOeT]Senna added point: 
+[f=0014876] [LOeT]Senna added point: 
+[f=0014905] [LOeT]Senna added point: 
+[f=0014959] [4getpw] what no dgun ?
+[f=0015160] [dontletmedown] OMG pink units, really?
+[f=0015198] Commanders Remaining: 4
+[f=0015289] [[LOeT]Vorlage] there is no timeout?
+[f=0015465] [[FLM]Scorplex] Spectators: they just changed the name
+[f=0015619] [[LOeT]Vorlage] redemption got massive lag already
+[f=0015734] [4getpw] its a sin !
+[f=0015785] [[LOeT]Vorlage] and does not drop
+[f=0016203] Commanders Remaining: 3
+[f=0017343] [nl]cerealkiller added point: killed 2 bases
+[f=0017443] [nl]cerealkiller added point: here
+[f=0017505] [LOeT]Senna added point: hahahahah
+[f=0017710] [ACE]Krapoo added point: ooops
+[f=0017764] [4getpw] why should it be renamed dont understand... wheres my ota feeling i love
+[f=0018305] <tminus1> boom
+[f=0018425] Player 7 (tminus1) resigned and is now spectating!
+[f=0018531] <[LOeT]Senna> Allies:  I took the abandoned units.
+[f=0018813] Spectator tminus1 left the game:  normal quit
+[f=0019279] > <[PinK]AlbA> braindamage
+[f=0019385] Spectator [BoS]nixtux left the game:  normal quit
+[f=0019660] > <[PinK]AlbA> i still canot increase scrolling speed
+[f=0019899] > <[PinK]AlbA> i setted camera overview to 100
+[f=0020003] [BrainDamage] there's chance it's broken :/
+[f=0020079] > <[PinK]AlbA> still, it is fucking slow
+[f=0020349] > <[PinK]AlbA> any of you cna scroll fast
+[f=0020530] [4getpw] zoom in out ...
+[f=0020587] [BrainDamage] i use my own camera
+[f=0020771] <[H]joooo> Allies:  I gave 3 units to [No]Pallino.
+[f=0020953] [BrainDamage] try holding shift while scrolling
+[f=0020961] > <[PinK]AlbA> ok..
+[f=0021070] [BrainDamage] see if it's any help
+[f=0021084] > <[PinK]AlbA> ok
+[f=0021221] > <[PinK]AlbA> i ll try, come back..
+[f=0021428] [ACE]Krapoo added point: guardian somewhere
+[f=0021491] <[LOeT]Amorphe> Allies: norht dies
+[f=0021909] <[H]joooo> Allies:  I gave 11 units to [No]DuCnuke.
+[f=0022616] [BrainDamage] i like how explosion marks are now permantly baked in
+[f=0022896] > <[PinK]AlbA> yeah shift did the job
+[f=0023003] > <[PinK]AlbA> but that is a pain
+[f=0023035] [[LOeT]Vorlage] yep looks nice
+[f=0023233] [No]Party added point: scaut here please :)
+[f=0023427] > <[PinK]AlbA> still is a shame u need to use shift al lthe time
+[f=0023483] <[H]joooo> Allies:  I gave 11 units to [No]DuCnuke.
+[f=0023496] Added new player: [TaG]SchrodingerCat
+[f=0023570] > <[PinK]AlbA> should be reverted
+[f=0023934] [BrainDamage] [PinK]AlbA: shift was a feature in old spring version too
+[f=0024146] <[LOeT]Senna> Allies:  I gave 2 units to zerver.
+[f=0024246] [LOeT]Senna added point: zerver
+[f=0024314] [BrainDamage] i think that the camera ignores the scroll speed is just a bug
+[f=0024341] [[FLM]Scorplex] Spectators: As spec we can't add point on the map anymore?
+[f=0024406] > <[PinK]AlbA> wierd, why was i able to scroll faster before then ?
+[f=0024684] [BrainDamage] bug that it ignroes config now
+[f=0024850] [[LOeT]Vorlage] Spectators: switched off
+[f=0025134] [BrainDamage] Spectators: it's the server forbidding it
+[f=0025434] [ACE]Krapoo added point: lol
+[f=0025557] [[LOeT]Vorlage] Allies: lol
+[f=0025628] > <[PinK]AlbA> tbh, i used to get smae kindof bug an dincrease setting far beyiond 100 in config file
+[f=0025651] <[EADS]Zehst> figther build too slow !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[f=0025728] <[EADS]Zehst> figther build too slow !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[f=0025886] <[EADS]Zehst> 100x
+[f=0025935] <[EADS]Zehst> figther build too slow !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[f=0026084] <[EADS]Zehst> is buged
+[f=0026194] [dontletmedown] does this game work well in 3D???
+[f=0026210] [[LOeT]Vorlage] !set specdraw 1
+[f=0026210] > [TERA]DSDHost2 * "specdraw" is not a valid global setting (use "!list settings" to list available global settings)
+[f=0026594] [[LOeT]Vorlage] !specdraw 1
+[f=0026594] > [TERA]DSDHost2 * Invalid command "specdraw"
+[f=0026660] [BrainDamage] iirc it's no spectatordraw
+[f=0026688] <[LOeT]Senna> try make bombers?
+[f=0026695] [[LOeT]Vorlage] xD
+[f=0026912] <[EADS]Zehst> i will try
+[f=0027510] [[LOeT]Vorlage] whatever - i forget all what i write into config
+[f=0027765] [BrainDamage] ok, so summary of the problems:
+[f=0027867] [BrainDamage] random crashes
+[f=0027899] Added new player: Totalvortex
+[f=0028249] [BrainDamage] midgame join broken
+[f=0028473] [[LOeT]Vorlage] no timeout
+[f=0028553] [BrainDamage] camera ignores scroll speed
+[f=0028673] [[LOeT]Vorlage] (look redemption)
+[f=0028918] [[FLM]Scorplex] I noticed flyning units that don't die
+[f=0028969] Added new player: Staggeh
+[f=0029385] [[LOeT]Vorlage] noticed that flying/rotating unit too
+[f=0029613] [[LOeT]Vorlage] now again
+[f=0029697] [[LOeT]Vorlage] north middle
+[f=0029896] [4RP]wahoodra added point: lol stockpile fail
+[f=0030145] > <[nl]Apenvolkje> the entire TAniverse is upside down
+[f=0030293] <[nl]cerealkiller> haha
+[f=0030494] [[LOeT]Vorlage] it happens when noobcannon hits
+[f=0030602] [BrainDamage] wahoodra: the widget was bundled with spring ... not anymore
+[f=0030756] <[LOeT]Amorphe> Allies: you teched to much middle
+[f=0030781] [[LOeT]Vorlage] forces getting weird
+[f=0031223] > <[nl]Apenvolkje> einstein is turning in his grave if he sees this release! 
+[f=0031713] [BrainDamage] we use spinning ancestors as power source
+[f=0032103] [dontletmedown] why? is it so bad? it looks great!
+[f=0032141] [[LOeT]Vorlage] looks a bit "fail"
+[f=0032489] > <[nl]Apenvolkje> tesla wouldnt probably have bothered inventing the tesla coil if he knew what was possible what has been done in this release! 
+[f=0032690] [LOeT]Senna added point: FIGHTERS?
+[f=0032706] [[LOeT]Vorlage] ofc to much rotation speed
+[f=0032952] [[LOeT]Vorlage] or less resistance
+[f=0033150] [[LOeT]Vorlage] per second
+[f=0033551] > <[PinK]AlbA> tjis auto-editing-screw-key-bind thingy is still there
+[f=0033566] Commanders Remaining: 4
+[f=0033833] > <[PinK]AlbA> messing up key bind eachtime u save setting
+[f=0033950] [4RP]wahoodra added point: enemy t3 coming soon
+[f=0034204] Added new player: [AG]abma
+[f=0034483] > <[PinK]AlbA> i miss 0.78 :(
+[f=0034599] [ACE]Krapoo added point: 
+[f=0034605] [No]Party added point: you are the teacher
+[f=0035046] [BrainDamage] abma: everyone LOVES the fact you removed default widgets from spring
+[f=0035058] [4RP]wahoodra added point: look at my neighbour
+[f=0035477] [BrainDamage] everyone so happy that they didn't see start boxes anymore :p
+[f=0035677] [nl]cerealkiller added point: omg T3
+[f=0035768] [BrainDamage] or anti & nanos idle
+[f=0035834] [No]DuCnuke added point: metal
+[f=0036037] [No]Party added point: ill build big laser, but we need more eco...
+[f=0036091] Added new player: [s2]bobbel
+[f=0036135] <[LOeT]Senna> so default widgets no longer works?
+[f=0036367] [BrainDamage] they are not installed
+[f=0036598] > <[PinK]AlbA> basically, that increase differnce between noob and vet (that already reinstalled them)
+[f=0036672] [BrainDamage] they are in the example folder
+[f=0037102] [No]Party added point: hei upgrade the mexes
+[f=0037169] <[LOeT]Senna> all my widgets works
+[f=0037228] <[LOeT]Senna> lol
+[f=0037275] > <[PinK]AlbA> same
+[f=0037693] <[LOeT]Senna> they should removed that
+[f=0037711] [BrainDamage] so do mine, but several widgets were bundled in spring
+[f=0037887] [BrainDamage] and people relied on that
+[f=0038028] <[LOeT]Senna> about airfactory
+[f=0038291] [BrainDamage] immobile builders, stockpiler, etc
+[f=0038322] <[LOeT]Senna> i think its a script bug
+[f=0038947] [dontletmedown] idk what rhose widgets do but noobs like me wouldnt miss them i guess
+[f=0039035] [[FLM]Scorplex] that 2 spiders ruined 2ht !! in north
+[f=0039191] [No]DuCnuke added point: can you share to me this please?
+[f=0039349] [4getpw] im agaINST fully automated things but start boxes stock piler... must have
+[f=0039404] <[H]joooo> Allies:  I gave 6 units to [No]DuCnuke.
+[f=0039487] <[H]joooo> Allies:  I gave 1 units to [No]DuCnuke.
+[f=0039570] <[LOeT]Senna> whats the firespeed lol
+[f=0039599] Removed:  LuaUI/Widgets/lups_wrapper.lua
+[f=0039599] Removed:  LuaUI/Widgets/gfx_lups_manager.lua
+[f=0039664] <[H]joooo> Allies:  I gave 1 units to [No]DuCnuke.
+[f=0039764] [No]DuCnuke added point: tnk
+[f=0039795] <[H]joooo> Allies:  I gave 1 units to [No]DuCnuke.
+[f=0039797] [BrainDamage] dontletmedown: trust me, not even seeing where you placed at start would annoy you
+[f=0039974] [BrainDamage] you'd have no clue wtf is happening
+[f=0040002] [dontletmedown] lol
+[f=0040011] [4getpw] start boxes for sure must have not same class as stock piler...
+[f=0040294] [No]DuCnuke paused the game
+[f=0040294] <[No]DuCnuke> wait some lag :
+[f=0040294] [EADS]Zehst added point: i finbisehd
+[f=0040294] <[No]DuCnuke> :)
+[f=0040294] toropyga added point: t2 v padly give
+[f=0040294] [LOeT]Senna added point: ANTINUKE
+[f=0040294] [LOeT]Senna added point: moving here
+[f=0040294] [No]DuCnuke unpaused the game
+[f=0040399] [BrainDamage] grats duke, you actually tactical paused for the enemy team
+[f=0040491] [BrainDamage] without knowing
+[f=0041091] [[tux]Ziz] Spectators:  so close...
+[f=0041105] [No]DuCnuke added point: lool
+[f=0041626] [EADS]Zehst added point: fault to my teamate
+[f=0041903] [LOeT]Senna added point: infact is a bug of aircraft
+[f=0042017] [LOeT]Senna added point: look
+[f=0042178] [ACE]Krapoo added point: t3
+[f=0042797] [[LOeT]Vorlage] hows about real physics instead of fake ?
+[f=0043091] <[LOeT]Amorphe> Allies: te the con
+[f=0043199] Set water rendering mode to 0 (basic)
+[f=0043380] [BrainDamage] you mean energy not teleported around the map magically?
+[f=0043529] [BrainDamage] no infinite bullets?
+[f=0043582] [[LOeT]Vorlage] noo
+[f=0043785] [[LOeT]Vorlage] just the "look"
+[f=0044197] [[LOeT]Vorlage] units fly around when get hit and so on
+[f=0044753] [BrainDamage] spring uses elastic collisions for units
+[f=0044829] [[LOeT]Vorlage] like in battlefield
+[f=0044870] <[LOeT]Senna> i think its the hoverthing
+[f=0044916] [BrainDamage] it should use inelastic :/
+[f=0045053] > <[PinK]AlbA> widget is the only reason most of playre like ,spring, that allow u to trully control effectively  differnet class of unit and not jsut sapmm the msot of them 
+[f=0045284] > <[PinK]AlbA> i thing remove widget is a bad idea
+[f=0045791] <[LOeT]Senna> things takes time to build
+[f=0045894] [BrainDamage] modders whined they were too ba-specific ...
+[f=0046035] > <[nl]Apenvolkje> I think someone is going to have a great weekend repairing all of this 
+[f=0046210] > <[PinK]AlbA> cliking 10 to build 10 unit is waste of time
+[f=0046435] [4getpw] shift
+[f=0046499] Set "shadows" config-parameter to 0
+[f=0046500] [BrainDamage] spring still supports widgets
+[f=0046801] [BrainDamage] there are just none shipped by default
+[f=0046895] [LOeT]Senna added point: lol
+[f=0046904] [BrainDamage] except for mod's
+[f=0047093] [dontletmedown] just include the widgets with ba than?
+[f=0047227] > <[PinK]AlbA> they will be included in ba by defauklt anyway
+[f=0047235] [BrainDamage] now ba should bundle the widgets that once were in spring
+[f=0047251] [[FLM]Scorplex] didn't anti nuke bugged 
+[f=0047378] > <[PinK]AlbA> which is great
+[f=0047655] <[LOeT]Senna> waho
+[f=0047856] <[4RP]wahoodra> ?
+[f=0047871] <[LOeT]Senna> fire a nuke to anti range please?
+[f=0048006] <[LOeT]Senna> for test
+[f=0048299] <[4RP]wahoodra> ok
+[f=0048404] <[LOeT]Senna> if anti doesnt stop anti
+[f=0048479] <[LOeT]Senna> is gg
+[f=0048520] <[4RP]wahoodra> s
+[f=0048615] <[LOeT]Senna> i mean nuk*
+[f=0048784] <[4RP]wahoodra> south east corner?
+[f=0048968] <[LOeT]Senna> midle
+[f=0049466] Player toropyga left the game:  normal quit
+[f=0049673] <[No]DuCnuke> Allies:  I gave 9 units to [H]joooo.
+[f=0049831] [No]DuCnuke added point: tnk
+[f=0050305] Spectator existenz left the game:  normal quit
+[f=0050736] Loading:  LuaUI/Widgets/loadeta.lua
+[f=0050813] > <[PinK]AlbA> eta ?
+[f=0050968] <[No]DuCnuke> few min
+[f=0050984] [BrainDamage] 3-5 mins
+[f=0051295] [4getpw] nah they dont get this finished
+[f=0051319] [dontletmedown] 3-5!?
+[f=0051375] <[LOeT]Senna> lol
+[f=0051435] <[LOeT]Senna> anti dont work
+[f=0051529] <[LOeT]Senna> ANTI DONT WORK
+[f=0051608] [[LOeT]Vorlage] lmgozr
+[f=0051656] > <[nl]Apenvolkje> lol
+[f=0051670] <zerver> lol
+[f=0051775] > <[nl]Apenvolkje> OK 
+[f=0051801] [BrainDamage] was a nuke even fired?
+[f=0051819] > <[nl]Apenvolkje> ITS OVER
+[f=0051950] <[LOeT]Senna> did u nuked?
+[f=0051957] [4RP]wahoodra added point: i shot here
+[f=0052054] <[LOeT]Senna> wahoo?
+[f=0052253] <[LOeT]Senna> was a nuke?
+[f=0052305] > <[nl]Apenvolkje> NUKE DOESNT WORK :P
+[f=0052331] > <[nl]Apenvolkje> haha
+[f=0052334] <[4RP]wahoodra> i shot as u asked: in middle]
+[f=0052414] [[FLM]Scorplex] I've seen a nuked and then the anti in late ...
+[f=0052460] <[LOeT]Senna> omg
+[f=0052530] [BrainDamage] wahoodra is firing now
+[f=0052598] <[LOeT]Senna> anti dont work
+[f=0052838] <[LOeT]Senna> nice
+[f=0052898] <[LOeT]Senna> nuke for all
+[f=0052935] <[4RP]wahoodra> your base senna
+[f=0053026] [LOeT]Senna added point: lets see
+[f=0053104] [dontletmedown] this gives the game a new challenge right?
+[f=0053129] [BrainDamage] anti works
+[f=0053291] [[LOeT]Vorlage] mobile not
+[f=0053380] [4getpw] its preparing but dont fire an anti missle
+[f=0053588] [4getpw] oh did
+[f=0053657] <[LOeT]Senna> mobile anti doesnt work?
+[f=0053821] [4getpw] this time worked
+[f=0053828] [LOeT]Senna added point: i had anti here
+[f=0053995] [BrainDamage] i didn't see any nuke going there tbh
+[f=0054098] [[LOeT]Vorlage] it was stationary
+[f=0054169] [[LOeT]Vorlage] what worked now
+[f=0054348] [EADS]Zehst added point: 
+[f=0054419] [4getpw] anti worked this time
+[f=0054436] [BrainDamage] who shot the nuke in the first place
+[f=0054485] <[LOeT]Senna> need check replay
+[f=0054498] [[LOeT]Vorlage] mobile before - worked not
+[f=0054533] [ACE]Krapoo added point: t3
+[f=0054642] [4getpw] wahoodra shot
+[f=0054837] [BrainDamage] and reloaded that fast?
+[f=0054843] <[LOeT]Senna> wahoo
+[f=0054874] <[LOeT]Senna> shot
+[f=0054923] [[FLM]Scorplex] Senna up to you wasn't the berta more than nuke?
+[f=0054957] [BrainDamage] with 0 stockpile?
+[f=0055317] Sync error for BrainDamage in frame 55309 (c2a89482)
+[f=0055390] [4getpw] hrhr
+[f=0055447] [BrainDamage] oh awesome
+[f=0055513] [BrainDamage] even desync :/
+[f=0055631] [LOeT]Amorphe gave everything to [EADS]Zehst
+[f=0055663] [4getpw] if i tell u wahodra shot u can trust me
+[f=0055682] Spectator [LOeT]Amorphe left the game:  normal quit
+[f=0055719] Sync error for BrainDamage in frame 55710 (b726b642)
+[f=0055827] Player 26 ([LOeT]Senna) resigned and is now spectating!
+[f=0055907] Speed set to 1.1 [[ACE]Krapoo]
+[f=0055938] Speed set to 1.0 [[ACE]Krapoo]
+[f=0055951] > <[PinK]AlbA> this is a DSD-only statmeent [FLM]Scorplex
+[f=0056022] [4getpw] i dont see a desync
+[f=0056065] [EADS]Zehst gave everything to [RuR]Dixon
+[f=0056118] Sync error for BrainDamage in frame 56111 (5828e376)
+[f=0056451] [[LOeT]Senna] SEE THAT PYRO
+[f=0056475] Spectator 4getpw left the game:  normal quit
+[f=0056520] Sync error for BrainDamage in frame 56512 (beeaf3a4)
+[f=0056772] Spectator [EADS]Zehst sent invalid team giveaway
+[f=0056780] [[LOeT]Senna] someone saw it?
+[f=0056875] [BrainDamage] nope
+[f=0056924] Sync error for BrainDamage in frame 56913 (5b401d97)
+[f=0057030] [[FLM]Scorplex] what ?
+[f=0057095] [[LOeT]Senna] it was doing  nice backflips
+[f=0057117] <[EADS]Zehst> bug i cant left the battle
+[f=0057123] Spectator [LOeT]Vorlage left the game:  normal quit
+[f=0057324] Sync error for BrainDamage in frame 57314 (52817bdb)
+[f=0057581] <[EADS]Zehst> WTF u do with this fucked VERSION OF SPRING!!!
+[f=0057607] [[LOeT]Senna] enable specdraw?
+[f=0057887] [[DoR]MelKor] yeah !!!
+[f=0057900] [[FLM]Scorplex] we can't ...
+[f=0057928] <[EADS]Zehst> WHY DO FUCKED BUGED VERSION
+[f=0057932] [BrainDamage] u report the bugs
+[f=0058051] [BrainDamage] and wait it gets fixed
+[f=0058223] [dontletmedown] can i still play with chickens in this version?
+[f=0058387] [[LOeT]Senna] nope
+[f=0058400] [BrainDamage] no, they are broken :p
+[f=0058480] Team 1 is no more
+[f=0058480] Team 3 (lead by [RuR]Dixon) is no more
+[f=0058480] Team 5 is no more
+[f=0058480] Team 6 (lead by toropyga) is no more
+[f=0058480] Team 7 is no more
+[f=0058480] Team 8 (lead by zerver) is no more
+[f=0058480] Team 13 is no more
+[f=0058496] <LockCamera> 26370 chars sent, 26370 chars received.
+[f=0058496] <autoquit> Automatically exiting in 5 seconds. Move mouse to cancel.
+[f=0058504] <autoquit> Autoquit canceled.
+[f=0058506] <[No]Pallino> becouse there are not testers!!
+[f=0058537] Spectator [DoR]MelKor left the game:  normal quit
+[f=0058539] Player [H]joooo left the game:  normal quit
+[f=0058548] Spectator Bob_Sacamano left the game:  normal quit
+[f=0058548] Spectator zerver left the game:  normal quit
+[f=0058567] Spectator [LOeT]Senna left the game:  normal quit
+[f=0058570] Player [nl]cerealkiller left the game:  normal quit
+[f=0058621] Player [No]Pallino left the game:  normal quit
+[f=0058621] Server shutdown
+[f=0058621] Error: Failed closing UDP conection: shutdown: Transport endpoint is not connected
+[f=0058621] Red_UI_Framework>> last processed widget was "Red Resource Bars"
+[f=0058621] Red_Drawing>> last processed widget was "Red Resource Bars"
+[f=0058621] Path cache hits 3828 43%
+[f=0058621] Path cache hits 6568 24%
+[f=0058621] Statistics for UDP connection:
+Received: 1838243 bytes in 31771 packets (57.8591 bytes/package)
+Sent: 955587 bytes in 28008 packets (34.1184 bytes/package)
+Relative protocol overhead: 0 up, 0.1037 down
+330 incoming chunks had been dropped, 2 outgoing chunks had to be resent
+
